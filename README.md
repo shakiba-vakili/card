@@ -4,9 +4,9 @@ This is a solution to the [Interactive card details form challenge on Frontend M
 
 ## Welcome! 👋
 
-![Design preview for the Interactive card details form coding challenge](./images/demo1.png)
+![Design preview for the Interactive card details form coding challenge](./demo1.png)
 
-<img src='./images/demo2.png'>
+<img src='./demo2.png'>
 
 ### Built with
 

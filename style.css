@@ -1,0 +1,218 @@
+/* - Linear gradient (active input border): hsl(249, 99%, 64%) to hsl(278, 94%, 30%)
+- Red (input errors): hsl(0, 100%, 66%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light grayish violet: hsl(270, 3%, 87%)
+- Dark grayish violet: hsl(279, 6%, 55%)
+- Very dark violet: hsl(278, 68%, 11%) */
+
+/* REST */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  appearance: none;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  scroll-behavior: smooth;
+  font-family: "Space Grotesk", sans-serif;
+  user-select: none;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  position: relative;
+}
+
+.f-img {
+  height: 100vh;
+}
+
+.img-card-f {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  width: 42rem;
+}
+.img-card-b {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  width: 42rem;
+}
+.p-f-1 {
+  color: white;
+  position: absolute;
+  font-size: 2.8rem;
+  left: 12.5%;
+  top: 33%;
+  letter-spacing: 0.2rem;
+}
+.p-f-2 {
+  color: white;
+  position: absolute;
+  font-size: 1rem;
+  left: 11.5%;
+  top: 42%;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.p-f-3,
+.y,
+.m {
+  color: white;
+  position: absolute;
+  font-size: 1.3rem;
+  left: 33%;
+  top: 42%;
+  letter-spacing: 0.2rem;
+}
+
+.y {
+  left: 35%;
+  top: 42%;
+}
+.dot {
+  z-index: 10;
+  left: 12%;
+  top: 17.5%;
+  position: absolute;
+  height: 4.5rem;
+  width: 4.5rem;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  display: inline-block;
+  z-index: 10;
+  left: 16%;
+  top: 19%;
+  position: absolute;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  border: 2px solid white;
+}
+
+.p-b-1 {
+  color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  left: 37%;
+  top: 64.5%;
+}
+
+.text {
+  /* background-color: aqua; */
+  position: absolute;
+  left: 60%;
+  top: 30%;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.last-line-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cvc {
+  margin-left: 1.5rem;
+}
+
+.date {
+  display: inline-flex;
+}
+
+input {
+  padding: 1rem 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid hsl(270, 3%, 87%);
+  color: hsl(279, 6%, 55%);
+}
+#input-4,
+#input-3 {
+  width: 25%;
+
+  margin-right: 0.8rem;
+}
+#input-5 {
+  width: 75%;
+  margin-left: 1rem;
+}
+label,
+.label {
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin: 2rem 0 1rem;
+  text-transform: uppercase;
+}
+
+button {
+  letter-spacing: 0.1rem;
+  width: 100%;
+  color: white;
+  background-color: hsl(278, 68%, 11%);
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+section {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section img {
+  width: 6rem;
+}
+
+section h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  letter-spacing: 0.3rem;
+  font-weight: 400;
+}
+section p {
+  margin-top: 1.5rem;
+  color: hsl(279, 6%, 55%);
+  font-size: 1.5rem;
+}
+
+section button {
+  margin-top: 4rem;
+  padding: 1.5rem;
+}
